@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Igreja Pentecostal Ministério Peniel. Pastores Alan & Anderleia. Cultos em Itapevi, SP.">
+
+    <title>Ministério Peniel | Face a Face com Deus</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&family=Playfair+Display:ital,wght@1,400;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header id="header">
+        <div class="container nav-flex">
+            <div class="brand-group">
+                <img src="assets/logo.png" alt="">
+                <div class="logo">MINISTÉRIO <span class="text-gold">PENIEL</span></div>
+            </div>
+
+            <nav class="nav-links">
+                <a href="#about">Liderança</a>
+                <a href="#gallery">Registros</a>
+                <a href="#location">Localização</a>
+            </nav>
+
+            <div class="header-actions">
+                <button class="btn-premium desktop-only" onclick="openModal()">Preciso de Ajuda</button>
+                <div class="mobile-toggle" id="mobile-toggle">
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="mobile-menu" id="mobile-menu">
+        <nav>
+            <a href="#about" onclick="toggleMenu()">Liderança</a>
+            <a href="#gallery" onclick="toggleMenu()">Registros</a>
+            <a href="#location" onclick="toggleMenu()">Localização</a>
+            <a href="#" onclick="toggleMenu(); openModal()">Preciso de Ajuda</a>
+        </nav>
+    </div>
+
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content container">
+            <p class="hero-subtitle">Bem-vindo à Casa do Pai</p>
+            <h1><span class="gradient-text">Jesus te espera</span><br>para um encontro Real.</h1>
+            <p class="hero-desc">"Vem conhecer nosso ministério e cultuar conosco!"</p>
+
+            <div class="status-badge">
+                <span class="pulse-dot"></span>
+                <span>Estamos disponíveis para orar por você</span>
+            </div>
+
+            <div style="margin-top: 40px;">
+                <a href="#location" class="btn-premium">Ver Endereços</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="leadership-section container">
+        <div class="leadership-grid">
+            <div class="leader-image-wrapper">
+                <img src="assets/presidentes.jpeg"
+                    alt="Pr. Alan e Pra. Anderleia">
+                <div class="leader-badge">Presidentes</div>
+            </div>
+            <div class="leader-content">
+                <p class="section-tag">Nossa Liderança</p>
+                <h2>Pr. Alan & <br>Pra. Anderleia</h2>
+                <div class="quote-box">
+                    <i class="fas fa-quote-left text-gold"></i>
+                    <p class="quote-text">"Estou em uma grande obra e não posso parar."</p>
+                </div>
+                <p class="leader-desc">Guiando o Ministério Peniel com amor, temor e dedicação à obra do Senhor. Uma
+                    família dedicada a abençoar a sua família.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="cards-section container">
+        <div class="section-header">
+            <p class="section-tag">Atmosfera de Adoração</p>
+            <h2>Registros dos Cultos</h2>
+        </div>
+
+        <div class="grid-cards">
+            <div class="card">
+                <div class="card-image">
+                    <img src="assets/abraço3.jpeg"
+                        alt="Adoração">
+                </div>
+                <div class="card-content">
+                    <div class="card-meta">Domingo • 18h</div>
+                    <h3>Culto da Família</h3>
+                    <p>Um tempo precioso de comunhão e palavra.</p>
+                </div>
+            </div>
+
+
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="assets/altar1.jpeg"
+                        alt="Comunhão">
+                </div>
+                <div class="card-content">
+                    <div class="card-meta">Terça • 19h30</div>
+                    <h3>Oração e Palavra</h3>
+                    <p>"Não somos os melhores, somos transformados."</p>
+                </div>
+            </div>
+
+
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="assets/abraço1.jpeg"
+                        alt="Libertação">
+                </div>
+                <div class="card-content">
+                    <div class="card-meta">Quinta • 19h30</div>
+                    <h3>Campanhas</h3>
+                    <p>Busca pelo Espírito Santo e Milagres.</p>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="assets/abraço2.jpeg"
+                        alt="Comunhão">
+                </div>
+                <div class="card-content">
+                    <div class="card-meta">Sábado • 19h (Algumas datas)</div>
+                    <h3>Eventos e Congressos</h3>
+                    <p>Eventos poderosos e cheios da Presença de Deus</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="assets/batismo2.jpeg"
+                        alt="Comunhão">
+                </div>
+                <div class="card-content">
+                    <div class="card-meta">Batismo • Algumas Datas</div>
+                    <h3>Batismo nas Águas</h3>
+                    <p>Renascer em Cristo, testemunhos de mudança de vida</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="assets/foto1.jpeg"
+                        alt="Comunhão">
+                </div>
+                <div class="card-content">
+                    <div class="card-meta">Batismo • Algumas Datas</div>
+                    <h3>Batismo nas Águas</h3>
+                    <p>Renascer em Cristo, testemunhos de mudança de vida</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="location" class="location-section">
+        <div class="container">
+            <div class="location-grid">
+                <div class="location-info">
+                    <p class="section-tag">Nossas Igrejas</p>
+                    <h2>Onde nos encontrar</h2>
+                    <p style="margin-bottom: 30px; color: var(--text-gray);">Duas portas abertas para receber você em
+                        Itapevi.</p>
+
+                    <div class="address-card">
+                        <div class="address-icon"><i class="fas fa-map-pin"></i></div>
+                        <div class="address-text">
+                            <h4>SEDE</h4>
+                            <p>Rua Vaticano, 276<br>Jardim São Carlos, Itapevi - SP</p>
+                            <a href="https://maps.google.com/?q=Rua+Vaticano+276+Itapevi" target="_blank"
+                                class="map-link">Abrir no GPS <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="address-card">
+                        <div class="address-icon"><i class="fas fa-location-arrow"></i></div>
+                        <div class="address-text">
+                            <h4>FILIAL</h4>
+                            <p>Rua Salmão, 260<br>Jardim São Carlos, Itapevi - SP</p>
+                            <a href="https://maps.google.com/?q=Rua+Salmao+260+Itapevi" target="_blank"
+                                class="map-link">Abrir no GPS <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="hours-box">
+                        <h3><i class="far fa-clock text-gold"></i> Horários</h3>
+                        <div class="hour-row">
+                            <span>Domingo</span>
+                            <span class="hour-time">18h00</span>
+                        </div>
+                        <div class="hour-row">
+                            <span>Terça e Quinta</span>
+                            <span class="hour-time">19h30</span>
+                        </div>
+                        <div class="status-live">
+                            <span class="pulse-dot"></span> Hoje é dia de vitória!
+                        </div>
+                    </div>
+                </div>
+
+                <div class="map-frame">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.4988012658!2d-46.935!3d-23.550!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDMzJzAwLjAiUyA0NsKwNTYnMDYuMCJX!5e0!3m2!1spt-BR!2sbr!4v1620000000000!5m2!1spt-BR!2sbr"
+                        width="100%" height="100%" style="border:0; filter: grayscale(1) invert(0.92) contrast(1.2);"
+                        allowfullscreen="" loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <h2 class="footer-logo">Ministério Peniel</h2>
+            <p class="footer-tag">Face a Face com Deus</p>
+            <p class="footer-verse">"Fomos salvos pela Graça, mas não foi de graça."</p>
+
+            <div class="social-links">
+                <a href="https://www.instagram.com/ministeriopenielffd/" target="_blank" aria-label="Instagram"><i
+                        class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100093144819565" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="http://api.whatsapp.com/send?phone=5511992125734" target="_blank" aria-label="Whatsapp"><i class="fab fa-whatsapp"></i></a>
+            </div>
+
+            <div class="copyright">
+                © 2024 Ministério Peniel. Todos os direitos reservados.
+            </div>
+        </div>
+    </footer>
+
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeModal()">×</span>
+            <div class="modal-header">
+                <h3>Fale Conosco</h3>
+                <p>Estamos aqui para ouvir e orar por você.</p>
+            </div>
+
+            <form id="prayerForm" onsubmit="submitForm(event)">
+                <div class="input-group">
+                    <input type="text" placeholder="Seu Nome" required>
+                </div>
+                <div class="input-group">
+                    <input type="tel" placeholder="Seu WhatsApp" required>
+                </div>
+                <div class="input-group">
+                    <textarea rows="4"
+                        placeholder="Me senti tocado pela Presença de Deus, preciso de ajuda e gostaria de conversar..."
+                        required></textarea>
+                </div>
+                <button type="submit" class="btn-premium full-width">Enviar Mensagem</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
